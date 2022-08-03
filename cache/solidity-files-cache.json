@@ -1,12 +1,12 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/external/VotingPowerManagerERC20UniV2.sol": {
-      "lastModificationDate": 1659337158128,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/external/VotingPowerManagerERC20UniV2.sol": {
+      "lastModificationDate": 1659525921446,
       "contentHash": "ffe03910f0e925c5ae1d4e51120e939e",
       "sourceName": "contracts/external/VotingPowerManagerERC20UniV2.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -40,12 +40,12 @@
         "StakeContractERC20UniV2"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/openzeppelin/IERC20.sol": {
-      "lastModificationDate": 1659337158145,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/openzeppelin/IERC20.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "5e0195fc81cb68137dfcd270e4d2e115",
       "sourceName": "contracts/libraries/openzeppelin/IERC20.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -75,12 +75,12 @@
         "IERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/openzeppelin/SafeERC20.sol": {
-      "lastModificationDate": 1659337158146,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/openzeppelin/SafeERC20.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "c7910d54edc6b1cbf8e9d26c62768c39",
       "sourceName": "contracts/libraries/openzeppelin/SafeERC20.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -113,12 +113,12 @@
         "SafeERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/IVotingPower.sol": {
-      "lastModificationDate": 1659337158138,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/IVotingPower.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "872ed0d768806d7100da6a528a9bc483",
       "sourceName": "contracts/interfaces/IVotingPower.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -148,12 +148,12 @@
         "IVotingPower"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/openzeppelin/Address.sol": {
-      "lastModificationDate": 1659337158145,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/openzeppelin/Address.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "9c522752b8808ee2ec477c123e5b9c90",
       "sourceName": "contracts/libraries/openzeppelin/Address.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -183,12 +183,12 @@
         "Address"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/upgradeInitializers/VotingPowerInitUniV2.sol": {
-      "lastModificationDate": 1659337158154,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/upgradeInitializers/VotingPowerInitUniV2.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "a873b0245a7a4887e1120659ae3c57cb",
       "sourceName": "contracts/upgradeInitializers/VotingPowerInitUniV2.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -222,12 +222,12 @@
         "VotingPowerInitUniV2"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/LibVotingPower.sol": {
-      "lastModificationDate": 1659337158143,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/LibVotingPower.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "531dd84a4dadafc218304beccb79ff97",
       "sourceName": "contracts/libraries/LibVotingPower.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -260,12 +260,12 @@
         "LibVotingPower"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/LibTreasury.sol": {
-      "lastModificationDate": 1659337158143,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/LibTreasury.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "173cacec3bf4f091cd1cf38714faf0e5",
       "sourceName": "contracts/libraries/LibTreasury.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -298,12 +298,12 @@
         "LibTreasury"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/treasury/ITreasury.sol": {
-      "lastModificationDate": 1659337158140,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/treasury/ITreasury.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "6ccc3a2c3f84b1b0b983313a8a4e73ae",
       "sourceName": "contracts/interfaces/treasury/ITreasury.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -335,12 +335,12 @@
         "ITreasury"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/treasury/ITreasuryVotingPower.sol": {
-      "lastModificationDate": 1659337158141,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/treasury/ITreasuryVotingPower.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "5b68b8d06bfbd0e4b51d322ddc4bb67c",
       "sourceName": "contracts/interfaces/treasury/ITreasuryVotingPower.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -370,12 +370,12 @@
         "ITreasuryVotingPower"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/upgradeInitializers/VotingPowerInitUniV3.sol": {
-      "lastModificationDate": 1659337158154,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/upgradeInitializers/VotingPowerInitUniV3.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "8c8f486f27bab66ca418ed41bacc9aab",
       "sourceName": "contracts/upgradeInitializers/VotingPowerInitUniV3.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -409,12 +409,12 @@
         "VotingPowerInitUniV3"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/external/VotingPowerManagerERC20UniV3.sol": {
-      "lastModificationDate": 1659337158129,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/external/VotingPowerManagerERC20UniV3.sol": {
+      "lastModificationDate": 1659525921446,
       "contentHash": "0270ebfe68c0941b0aca8ae665436d41",
       "sourceName": "contracts/external/VotingPowerManagerERC20UniV3.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -453,12 +453,12 @@
         "StakeContractERC20UniV3"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/node_modules/@openzeppelin/contracts/utils/structs/EnumerableSet.sol": {
-      "lastModificationDate": 1659337239672,
+    "/home/role/habitat/review/0xhabitat-frontend/node_modules/@openzeppelin/contracts/utils/structs/EnumerableSet.sol": {
+      "lastModificationDate": 1659526643388,
       "contentHash": "aec6e37069dfaa5e3d5fd66ef2274b0c",
       "sourceName": "@openzeppelin/contracts/utils/structs/EnumerableSet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -488,12 +488,12 @@
         "EnumerableSet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/node_modules/@openzeppelin/contracts/utils/structs/EnumerableMap.sol": {
-      "lastModificationDate": 1659337239672,
+    "/home/role/habitat/review/0xhabitat-frontend/node_modules/@openzeppelin/contracts/utils/structs/EnumerableMap.sol": {
+      "lastModificationDate": 1659526643388,
       "contentHash": "d163f6a1debe598957c196b5bf782cd6",
       "sourceName": "@openzeppelin/contracts/utils/structs/EnumerableMap.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -525,12 +525,12 @@
         "EnumerableMap"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/helpers/LibUniswapV3Math.sol": {
-      "lastModificationDate": 1659337158145,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/helpers/LibUniswapV3Math.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "d5b2a8655a825338cb75ff2da705feb8",
       "sourceName": "contracts/libraries/helpers/LibUniswapV3Math.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -560,12 +560,12 @@
         "LibUniswapV3Math"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/test/PositionValueTest.sol": {
-      "lastModificationDate": 1659337158153,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/test/PositionValueTest.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "a78fb47d9f77c8cc0e88d2f1135cf31d",
       "sourceName": "contracts/test/PositionValueTest.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -597,12 +597,12 @@
         "PositionValueTest"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/facets/VotingPowerFacet.sol": {
-      "lastModificationDate": 1659337158132,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/facets/VotingPowerFacet.sol": {
+      "lastModificationDate": 1659525921446,
       "contentHash": "74c3edba3c958a0291c6942481098e24",
       "sourceName": "contracts/facets/VotingPowerFacet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -635,12 +635,12 @@
         "VotingPowerFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/upgradeInitializers/TreasuryInit.sol": {
-      "lastModificationDate": 1659337158154,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/upgradeInitializers/TreasuryInit.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "98d1df01d364f46c33ea8fd24adf0978",
       "sourceName": "contracts/upgradeInitializers/TreasuryInit.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -674,12 +674,12 @@
         "TreasuryInit"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/facets/treasury/TreasuryVotingPowerFacet.sol": {
-      "lastModificationDate": 1659337158134,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/facets/treasury/TreasuryVotingPowerFacet.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "ec5015d67bf73a554193838addb642aa",
       "sourceName": "contracts/facets/treasury/TreasuryVotingPowerFacet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -713,12 +713,12 @@
         "TreasuryVotingPowerFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/treasury/LibTreasuryVotingPower.sol": {
-      "lastModificationDate": 1659337158147,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/treasury/LibTreasuryVotingPower.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "74d0b2558efc1193582ae3af944a3b44",
       "sourceName": "contracts/libraries/treasury/LibTreasuryVotingPower.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -752,12 +752,12 @@
         "LibTreasuryVotingPower"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/facets/treasury/TreasuryVotingFacet.sol": {
-      "lastModificationDate": 1659337158134,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/facets/treasury/TreasuryVotingFacet.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "3c1bac7c0e811ca392db2dfc14169384",
       "sourceName": "contracts/facets/treasury/TreasuryVotingFacet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -793,12 +793,12 @@
         "TreasuryVotingFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/treasury/ITreasuryVoting.sol": {
-      "lastModificationDate": 1659337158141,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/treasury/ITreasuryVoting.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "b544db9f7de5bd3f9c0b11887590b604",
       "sourceName": "contracts/interfaces/treasury/ITreasuryVoting.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -828,12 +828,12 @@
         "ITreasuryVoting"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/treasury/LibTreasuryVoting.sol": {
-      "lastModificationDate": 1659337158146,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/treasury/LibTreasuryVoting.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "7e1382673a62892536d72ce77a8ed366",
       "sourceName": "contracts/libraries/treasury/LibTreasuryVoting.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -866,12 +866,12 @@
         "LibTreasuryVoting"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/facets/treasury/TreasuryViewerFacet.sol": {
-      "lastModificationDate": 1659337158134,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/facets/treasury/TreasuryViewerFacet.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "8304fe1b2166d33e2ca9a92bb1b5f9a1",
       "sourceName": "contracts/facets/treasury/TreasuryViewerFacet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -904,12 +904,12 @@
         "TreasuryViewerFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/facets/treasury/TreasuryExecutionFacet.sol": {
-      "lastModificationDate": 1659337158133,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/facets/treasury/TreasuryExecutionFacet.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "98ea2e0bc8276693e42ed5a4cdc85ad9",
       "sourceName": "contracts/facets/treasury/TreasuryExecutionFacet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -943,12 +943,12 @@
         "TreasuryExecutionFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/treasury/ITreasuryExecution.sol": {
-      "lastModificationDate": 1659337158141,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/treasury/ITreasuryExecution.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "71c7273720566e5b7f1eb7fabe8a3e96",
       "sourceName": "contracts/interfaces/treasury/ITreasuryExecution.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -978,12 +978,12 @@
         "ITreasuryExecution"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/facets/DiamondCutFacet.sol": {
-      "lastModificationDate": 1659337158130,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/facets/DiamondCutFacet.sol": {
+      "lastModificationDate": 1659525921446,
       "contentHash": "0a339becd0ecded4726b2ed7c9b2c509",
       "sourceName": "contracts/facets/DiamondCutFacet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1016,12 +1016,12 @@
         "DiamondCutFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/IDiamondCut.sol": {
-      "lastModificationDate": 1659337158135,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/IDiamondCut.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "8f754580ead3dcda4894ce7ba1f1e23c",
       "sourceName": "contracts/interfaces/IDiamondCut.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1051,12 +1051,12 @@
         "IDiamondCut"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/LibDiamond.sol": {
-      "lastModificationDate": 1659337158143,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/LibDiamond.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "4f16952352eb65f41e22782379194ddb",
       "sourceName": "contracts/libraries/LibDiamond.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1088,12 +1088,12 @@
         "LibDiamond"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/upgradeInitializers/DiamondInit.sol": {
-      "lastModificationDate": 1659337158153,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/upgradeInitializers/DiamondInit.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "6fef71c69a5acaf35ed1e1d37dcf54ee",
       "sourceName": "contracts/upgradeInitializers/DiamondInit.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1129,12 +1129,12 @@
         "DiamondInit"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/IDiamondLoupe.sol": {
-      "lastModificationDate": 1659337158135,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/IDiamondLoupe.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "72a810963b48d85fb56a938a73ca6b47",
       "sourceName": "contracts/interfaces/IDiamondLoupe.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1164,12 +1164,12 @@
         "IDiamondLoupe"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/IERC173.sol": {
-      "lastModificationDate": 1659337158137,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/IERC173.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "f5624b6819dbaf3342f3a2c1faf62e4a",
       "sourceName": "contracts/interfaces/IERC173.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1199,12 +1199,12 @@
         "IERC173"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/IERC165.sol": {
-      "lastModificationDate": 1659337158137,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/IERC165.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "875ed65fb7fce72383b67447df2c1fe2",
       "sourceName": "contracts/interfaces/IERC165.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1234,12 +1234,12 @@
         "IERC165"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/facets/DiamondLoupeFacet.sol": {
-      "lastModificationDate": 1659337158131,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/facets/DiamondLoupeFacet.sol": {
+      "lastModificationDate": 1659525921446,
       "contentHash": "01ed6567e1e51f5d60f21f42e662fb2d",
       "sourceName": "contracts/facets/DiamondLoupeFacet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1273,12 +1273,12 @@
         "DiamondLoupeFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/facets/OwnershipFacet.sol": {
-      "lastModificationDate": 1659337158131,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/facets/OwnershipFacet.sol": {
+      "lastModificationDate": 1659525921446,
       "contentHash": "25fed57b04773c1b675cd5dec10fe205",
       "sourceName": "contracts/facets/OwnershipFacet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1311,12 +1311,12 @@
         "OwnershipFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/HabitatDiamond.sol": {
-      "lastModificationDate": 1659337158127,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/HabitatDiamond.sol": {
+      "lastModificationDate": 1659525921446,
       "contentHash": "07a12ae226c9b6757004391fcffb73a8",
       "sourceName": "contracts/HabitatDiamond.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1349,12 +1349,12 @@
         "HabitatDiamond"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol": {
-      "lastModificationDate": 1659337158133,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "7b00d40b978b7f6a26b10959b2ff0085",
       "sourceName": "contracts/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1388,12 +1388,12 @@
         "TreasuryDefaultCallbackHandlerFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/treasury/tokens/ERC1155TokenReceiver.sol": {
-      "lastModificationDate": 1659337158142,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/treasury/tokens/ERC1155TokenReceiver.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "e241df813a2256a9c08f779ad935c275",
       "sourceName": "contracts/interfaces/treasury/tokens/ERC1155TokenReceiver.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1423,12 +1423,12 @@
         "ERC1155TokenReceiver"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/treasury/tokens/ERC721TokenReceiver.sol": {
-      "lastModificationDate": 1659337158142,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/treasury/tokens/ERC721TokenReceiver.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "af88152e841bfa6053cef803278f99a1",
       "sourceName": "contracts/interfaces/treasury/tokens/ERC721TokenReceiver.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1458,12 +1458,12 @@
         "ERC721TokenReceiver"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/treasury/tokens/ERC777TokensRecipient.sol": {
-      "lastModificationDate": 1659337158142,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/treasury/tokens/ERC777TokensRecipient.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "278e0ddcb105bcc75a2b3ea0f681fb82",
       "sourceName": "contracts/interfaces/treasury/tokens/ERC777TokensRecipient.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1493,12 +1493,12 @@
         "ERC777TokensRecipient"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/dao/IDAO.sol": {
-      "lastModificationDate": 1659337158139,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/dao/IDAO.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "879f4ef8dca9cf6e85da834c9f0c45c9",
       "sourceName": "contracts/interfaces/dao/IDAO.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1530,12 +1530,12 @@
         "IDAO"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/dao/IManagementSystem.sol": {
-      "lastModificationDate": 1659337158139,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/dao/IManagementSystem.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "4197cb9e94c0297ef8f9aadacd62169f",
       "sourceName": "contracts/interfaces/dao/IManagementSystem.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1565,12 +1565,12 @@
         "IManagementSystem"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/dao/LibDAOStorage.sol": {
-      "lastModificationDate": 1659337158144,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/dao/LibDAOStorage.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "c8b53e959bdcd467e8dcc16f448bc3ed",
       "sourceName": "contracts/libraries/dao/LibDAOStorage.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1604,12 +1604,12 @@
         "LibDAOStorage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/dao/LibManagementSystem.sol": {
-      "lastModificationDate": 1659337158144,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/dao/LibManagementSystem.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "f4d19d7ca57d6d84817e1538dbd1af38",
       "sourceName": "contracts/libraries/dao/LibManagementSystem.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1641,12 +1641,12 @@
         "LibManagementSystem"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/interfaces/dao/ISubDAO.sol": {
-      "lastModificationDate": 1659337158139,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/interfaces/dao/ISubDAO.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "bcc78f88ec867104ce4a7ebbdb616722",
       "sourceName": "contracts/interfaces/dao/ISubDAO.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1678,12 +1678,12 @@
         "ISubDAO"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/libraries/dao/LibSubDAO.sol": {
-      "lastModificationDate": 1659337158144,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/libraries/dao/LibSubDAO.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "1e24908f9f25ddd534b9717a084ef89b",
       "sourceName": "contracts/libraries/dao/LibSubDAO.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1717,12 +1717,12 @@
         "LibSubDAO"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/mock/MockERC20.sol": {
-      "lastModificationDate": 1659337158147,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/mock/MockERC20.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "544a80d7fed4ad996d7099fe3630d103",
       "sourceName": "contracts/mock/MockERC20.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1754,12 +1754,12 @@
         "MockERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1659337239672,
+    "/home/role/habitat/review/0xhabitat-frontend/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1659526643384,
       "contentHash": "af7bd64e1cfefbf6cb07f2adc1a25392",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1793,12 +1793,12 @@
         "ERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1659337239672,
+    "/home/role/habitat/review/0xhabitat-frontend/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1659526643384,
       "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1828,12 +1828,12 @@
         "IERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1659337239672,
+    "/home/role/habitat/review/0xhabitat-frontend/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1659526644376,
       "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1865,12 +1865,12 @@
         "IERC20Metadata"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1659337239642,
+    "/home/role/habitat/review/0xhabitat-frontend/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1659526641420,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1900,12 +1900,12 @@
         "Context"
       ]
     },
-    "/Users/thomasvanslooten/Projects/habitat/0xhabitat-frontend/contracts/mock/MockVotingPowerHolder.sol": {
-      "lastModificationDate": 1659337158150,
+    "/home/role/habitat/review/0xhabitat-frontend/contracts/mock/MockVotingPowerHolder.sol": {
+      "lastModificationDate": 1659525921450,
       "contentHash": "f2869edba5a9df7390c86b4911a5e274",
       "sourceName": "contracts/mock/MockVotingPowerHolder.sol",
       "solcConfig": {
-        "version": "0.8.15",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,

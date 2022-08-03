@@ -29,6 +29,7 @@ describe('Stake', function () {
     "3000": "",
     "10000": ""
   };
+  let fee;
 
   before(async function () {
     accounts = await ethers.getSigners();

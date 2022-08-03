@@ -3,10 +3,20 @@
 const fs = require("fs");
 const { ethers } = require("hardhat");
 
+const { tokenName } = require("./pairAddresses.json");
 const { addresses } = require("./pairAddresses.json");
+const { pricesToken0 } = require("./pairAddresses.json");
+const { pricesToken1 } = require("./pairAddresses.json");
 const nfPositionManagerAddress = "0xC36442b4a4522E871399CD717aBDD847Ab11FE88";
+const nfPositionManagerABI = require('../test/abis/NonfungiblePositionManager.json');
+const uniswapV3PoolABI = require('../test/abis/UniswapV3Pool.json');
 
 const addressesMap = {};
+const pools = {
+  "500": "",
+  "3000": "",
+  "10000": ""
+};
 
 async function deployStakeContract (arrayOfPairAddresses) {
   const accounts = await ethers.getSigners()
@@ -29,6 +39,30 @@ async function deployStakeContract (arrayOfPairAddresses) {
   const positionValueTest = await PositionValueTest.deploy();
   await positionValueTest.deployed();
   addressesMap.positionValueTest = positionValueTest.address;
+
+  // deploy pools
+  let isHBTToken0;
+  const nfPositionManager = new ethers.Contract(nfPositionManagerAddress, nfPositionManagerABI.abi, signer);
+
+  addressesMap.pools = {};
+  for (let i = 0; i < arrayOfPairAddresses.length; i++) {
+    addressesMap.pools[tokenName[i]] = [];
+    if (ethers.BigNumber.from(hbtToken.address).lt(ethers.BigNumber.from(arrayOfPairAddresses[i]))) {
+      isHBTToken0 = true;
+      for (const fee in pools) {
+        const poolAddress = await nfPositionManager.callStatic.createAndInitializePoolIfNecessary(hbtToken.address, arrayOfPairAddresses[i], ethers.BigNumber.from(fee), ethers.BigNumber.from(pricesToken1[i]));
+        addressesMap.pools[tokenName[i]].push({[fee]: poolAddress});
+        await nfPositionManager.createAndInitializePoolIfNecessary(hbtToken.address, arrayOfPairAddresses[i], ethers.BigNumber.from(fee), ethers.BigNumber.from(pricesToken1[i]));
+      }
+    } else {
+      isHBTToken0 = false;
+      for (const fee in pools) {
+        const poolAddress = await nfPositionManager.callStatic.createAndInitializePoolIfNecessary(arrayOfPairAddresses[i], hbtToken.address, ethers.BigNumber.from(fee), ethers.BigNumber.from(pricesToken0[i]));
+        addressesMap.pools[tokenName[i]].push({[fee]: poolAddress});
+        await nfPositionManager.createAndInitializePoolIfNecessary(arrayOfPairAddresses[i], hbtToken.address, ethers.BigNumber.from(fee), ethers.BigNumber.from(pricesToken0[i]));
+      }
+    }
+  }
   await fs.promises.writeFile('./contracts/addressesMap.json', JSON.stringify(addressesMap));
 }
 

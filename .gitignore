@@ -3,6 +3,7 @@
 #Hardhat files
 cache
 artifacts
+contracts/addressesMap.json
 
 # dependencies
 /node_modules

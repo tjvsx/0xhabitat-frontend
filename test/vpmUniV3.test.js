@@ -6,6 +6,9 @@ const wETHABI = require('./abis/WETH.json');
 const nfPositionManagerAddress = "0xC36442b4a4522E871399CD717aBDD847Ab11FE88";
 const wETHAddress = "0x4200000000000000000000000000000000000006";
 
+const { addresses } = require("../scripts/pairAddresses.json");
+const { deployStakeContract } = require('../scripts/deployStakeContract.js');
+
 const tickSpacing = {
   "500": 10,
   "3000": 60,
@@ -17,13 +20,10 @@ describe('Stake', function () {
   let signer;
   let tester1;
   let tester2;
-  let hbtToken;
   let weth;
-  let votingPowerHolder;
-  let stakeContractERC20UniV3;
-  let nfPositionManager;
-  let positionValueTest;
   let isHBTToken0;
+  let multicall, multicall2, hbtToken, votingPowerHolder, stakeContractERC20UniV3, positionValueTest, nfPositionManager;
+
   const pools = {
     "500": "",
     "3000": "",
@@ -36,21 +36,28 @@ describe('Stake', function () {
     signer = accounts[0];
     tester1 = accounts[1];
     tester2 = accounts[2];
-    const MockERC20 = await ethers.getContractFactory('MockERC20');
-    hbtToken = await MockERC20.deploy("Habitat", "HBT", signer.address, ethers.BigNumber.from('1000000000000000000000000'));
-    await hbtToken.deployed();
+
+    [multicall, multicall2, hbtToken, votingPowerHolder, stakeContractERC20UniV3, positionValueTest, nfPositionManager] = await deployStakeContract(addresses);
+    
+    // const MockERC20 = await ethers.getContractFactory('MockERC20');
+    // hbtToken = await MockERC20.deploy("Habitat", "HBT", signer.address, ethers.BigNumber.from('1000000000000000000000000'));
+    // await hbtToken.deployed();
+
     weth = new ethers.Contract(wETHAddress, wETHABI.abi, signer);
-    const MockVotingPowerHolder = await ethers.getContractFactory('MockVotingPowerHolder');
-    votingPowerHolder = await MockVotingPowerHolder.deploy();
-    await votingPowerHolder.deployed();
-    const StakeContractERC20UniV3 = await ethers.getContractFactory('StakeContractERC20UniV3');
-    stakeContractERC20UniV3 = await StakeContractERC20UniV3.deploy(votingPowerHolder.address, nfPositionManagerAddress, hbtToken.address, [wETHAddress]);
-    await stakeContractERC20UniV3.deployed();
-    await votingPowerHolder.setVPM(stakeContractERC20UniV3.address);
-    const PositionValueTest = await ethers.getContractFactory('PositionValueTest');
-    positionValueTest = await PositionValueTest.deploy();
-    await positionValueTest.deployed();
-    nfPositionManager = new ethers.Contract(nfPositionManagerAddress, nfPositionManagerABI.abi, signer);
+
+    // const MockVotingPowerHolder = await ethers.getContractFactory('MockVotingPowerHolder');
+    // votingPowerHolder = await MockVotingPowerHolder.deploy();
+    // await votingPowerHolder.deployed();
+    // const StakeContractERC20UniV3 = await ethers.getContractFactory('StakeContractERC20UniV3');
+    // stakeContractERC20UniV3 = await StakeContractERC20UniV3.deploy(votingPowerHolder.address, nfPositionManagerAddress, hbtToken.address, [wETHAddress]);
+    // await stakeContractERC20UniV3.deployed();
+    // await votingPowerHolder.setVPM(stakeContractERC20UniV3.address);
+    // const PositionValueTest = await ethers.getContractFactory('PositionValueTest');
+    // positionValueTest = await PositionValueTest.deploy();
+    // await positionValueTest.deployed();
+
+
+    // nfPositionManager = new ethers.Contract(nfPositionManagerAddress, nfPositionManagerABI.abi, signer);
 
     if (ethers.BigNumber.from(hbtToken.address).lt(ethers.BigNumber.from(wETHAddress))) {
       isHBTToken0 = true;
@@ -176,7 +183,6 @@ describe('Stake', function () {
 
   async function getNFTs(beneficiar) {
     await hbtToken.transfer(beneficiar.address, ethers.BigNumber.from("100000000000000000000000"));
-
     const hbtTokenNS = hbtToken.connect(beneficiar);
     const wethNS = weth.connect(beneficiar);
     const nfPositionManagerNS = nfPositionManager.connect(beneficiar);

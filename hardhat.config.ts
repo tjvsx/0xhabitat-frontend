@@ -19,7 +19,7 @@ const hardhatSettings = {
     },
   },
   abiExporter: {
-    path: './test/abis',
+    path: './metadata',
     runOnCompile: true,
     clear: true,
     flat: true,

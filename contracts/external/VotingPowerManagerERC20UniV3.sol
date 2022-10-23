@@ -8,6 +8,8 @@ import {IERC20} from "../libraries/openzeppelin/IERC20.sol";
 import {SafeERC20} from "../libraries/openzeppelin/SafeERC20.sol";
 import {IVotingPower} from "../interfaces/IVotingPower.sol";
 
+import "hardhat/console.sol";
+
 struct Slot0 {
     // the current price
     uint160 sqrtPriceX96;
@@ -98,6 +100,10 @@ contract StakeContractERC20UniV3 {
     for (uint i = 0; i < amountOfPairTokens; i++) {
       legalPairTokens.add(_legalPairTokens[i]);
     }
+  }
+
+  function getLegalPairTokens() external view returns(address[] memory) {
+    return legalPairTokens.values();
   }
 
   // should give token approval before call
@@ -247,12 +253,31 @@ contract StakeContractERC20UniV3 {
   }
 
   function getAmountOfStakedNFTPositions(address holder) public view returns (uint256) {
+    return _getAmountOfStakedNFTPositions(holder);
+  }
+  function _getAmountOfStakedNFTPositions(address holder) internal view returns (uint256) {
+    console.log('_getAmountOfStakedNFTPositions called');
     require(holder != address(0), "ERC721: balance query for the zero address");
-    return _stakerNFTPositions[holder].length();
+    uint256 length = _stakerNFTPositions[holder].length();
+    console.log('length', length);
+    return length;
   }
 
   function getNFTPositionIdOfHolderByIndex(address holder, uint256 index) public view returns (uint256) {
+    return _getNFTPositionIdOfHolderByIndex(holder, index);
+  }
+  function _getNFTPositionIdOfHolderByIndex(address holder, uint256 index) internal view returns (uint256) {
     return _stakerNFTPositions[holder].at(index);
+  }
+
+  function getAllNFTPositionIdsOfHolder(address holder) public view returns(uint256[] memory) {
+    uint256 totalPositions = _getAmountOfStakedNFTPositions(holder);
+    uint256[] memory positions = new uint256[](totalPositions);
+    for (uint i = 0; i < totalPositions; i++) {
+      uint position = _getNFTPositionIdOfHolderByIndex(holder, i);
+      positions[i] = position;
+    }
+    return positions;
   }
 
   function nftPositionIsStakedByHolder(address holder, uint256 tokenId) public view returns(bool) {
@@ -266,4 +291,7 @@ contract StakeContractERC20UniV3 {
   function onERC721Received(address operator, address from, uint256 tokenId, bytes calldata data) external pure returns (bytes4) {
     return 0x150b7a02;
   }
+
+
+
 }

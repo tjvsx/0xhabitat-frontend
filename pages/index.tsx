@@ -24,10 +24,7 @@ const Home: NextPage = () => {
   return (
 
     <div className='flex justify-center items-center w-full h-[100vh] bg-gradient-to-r from-cyan-500 to-blue-500'>
-      {/* <div>
-        <button onClick={() => activateBrowserWallet()}>Connect</button>
-      </div> */}
-      {account && (
+      {account? (
         <div>
           <>
           <VotingPower />
@@ -41,6 +38,10 @@ const Home: NextPage = () => {
             {JSON.stringify(storeState)} */}
 
           </>
+        </div>
+      ) : (
+        <div>
+          <button onClick={() => activateBrowserWallet()}>Connect</button>
         </div>
       )}
     </div>

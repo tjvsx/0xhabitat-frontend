@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Config, DAppProvider, Hardhat } from '@usedapp/core'
-import { getDefaultProvider } from 'ethers'
 
 const config: Config = {
   readOnlyChainId: Hardhat.chainId,
@@ -16,7 +15,6 @@ const config: Config = {
 }
 
 function MyApp({ Component, pageProps }: AppProps) {
-  console.log('config', config)
   return (
     <DAppProvider config={config}>
       <Component {...pageProps} />

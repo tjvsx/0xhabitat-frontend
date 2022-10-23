@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "agnostic-react/dist/common.min.css";
+:root {
+  --habitat-primary: #000;
+  --habitat-secondary: #fff;
+  --habitat-accent: #888;
+}
 
 html {
   height:100vh;
@@ -52,6 +56,19 @@ h5 {
 h6 {
   @apply text-lg;
 }
+
 button {
-  @apply bg-black text-white;
+  @apply w-full rounded-full px-4 py-2 text-sm font-medium hover:bg-opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 bg-black text-white;
+}
+
+@layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+a {
+  @apply underline text-blue-700;
 }

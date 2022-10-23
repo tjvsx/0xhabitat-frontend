@@ -178,6 +178,8 @@ describe('Stake', function () {
         const votingPowerAmountForNFT = await stakeContractTester1.getAmountOfVotingPowerForNFTPosition(nftsTester1.onlyToken0[i].tokenId);
         expect(votingPowerAmountForNFT).to.eq(amount0Principal);
       }
+      const nftpositions = await stakeContractTester1.callStatic.getAllNFTPositionIdsOfHolder(tester1.address);
+      console.log('nft positions', nftpositions)
     }
   });
 

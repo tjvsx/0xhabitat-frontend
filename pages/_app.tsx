@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Config, DAppProvider, Hardhat } from '@usedapp/core'
-import { getDefaultProvider } from 'ethers'
 
 const config: Config = {
   readOnlyChainId: Hardhat.chainId,
@@ -10,9 +9,9 @@ const config: Config = {
     [Hardhat.chainId]: "http://localhost:8545",
   },
   multicallAddresses: {
-    [Hardhat.chainId]: '0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821'
+    [Hardhat.chainId]: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
   },
-  multicallVersion: 1
+  multicallVersion: 2
 }
 
 function MyApp({ Component, pageProps }: AppProps) {

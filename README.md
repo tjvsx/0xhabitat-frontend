@@ -24,3 +24,15 @@ All of these commands are automated by running
 ```bash
 yarn add:usedapp 0x1EFFEbE8B0bc20f2Dc504AA16dC76FF1AB2297A3
 ```
+
+## Development
+To run local optimism mainnet fork node and deploy stake contract use this commands:
+- in separate terminal:
+```
+npx hardhat node
+```
+- in another terminal:
+```
+npx hardhat run --network localhost scripts/deployStakeContract.js
+```
+To use contracts make requests to http://127.0.0.1:8545/ and contract addresses can be found in ```./contracts/addressesMap.json```

@@ -1,0 +1,14 @@
+{
+  "tokenName": [
+    "WETH"
+  ],
+  "addresses": [
+    "0x4200000000000000000000000000000000000006"
+  ],
+  "pricesToken0": [
+    "0x1f9f6d9a3bc5ab22441f2925e9"
+  ],
+  "pricesToken1": [
+    "0x81853cdc3fe8b949c55450b"
+  ]
+}
